@@ -4,8 +4,7 @@ import { Clock, ClockClassComponent } from "./Clock/Clock";
 function App() {
   return (
     <>
-      {/*<Clock />*/}
-      <ClockClassComponent />
+      <Clock />
     </>
   );
 }
