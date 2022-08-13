@@ -1,0 +1,34 @@
+.taux {
+    border: 5px solid wheat;
+    border-top: 5px solid  rgb(46, 1, 83);
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    animation: spin 1s linear;
+}
+
+
+.container{
+    width: 100px;
+    height: 100px;
+    margin: 2% auto;
+    position: relative;
+    box-shadow: 0 0 4px 3px black;
+    border-radius: 6px;
+}
+
+.value{
+    position: inherit;
+    top: 23%;
+    left: 10%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

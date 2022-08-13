@@ -1,0 +1,17 @@
+
+button{
+    border: 2px solid  rgb(46, 1, 83);
+    background-color: white;
+    color:  rgb(46, 1, 83);
+    padding: 8px;
+    width: 100px;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1%;
+}
+
+button:hover{
+    background-color:  rgb(46, 1, 83);
+    color: white;
+    transition: 0.5s;
+}

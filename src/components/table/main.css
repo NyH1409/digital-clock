@@ -1,0 +1,26 @@
+*{
+    font-family: monospace;
+}
+tr:nth-child(odd){
+    background-color: rgb(46, 1, 83);
+}
+
+table{
+    width: 95%;
+    background-color: rgb(46, 1, 70);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 black;
+    margin: 1%;
+    float: right;
+}
+
+td,th{
+    padding: 8px;
+}
+
+.generate{
+    float: left;
+    width: 200px;
+    margin-left: 3.5%;
+}
